@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="es-EC">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laptop HP Estudiantil $89.99 — pagas al recibir | Mochila Tech</title>
+<meta name="description" content="Laptop HP 11.6'' lista para clases, Office y Zoom. $89.99, envío gratis a todo Ecuador por Servientrega y pagas cuando te llega.">
+<meta property="og:title" content="Laptop HP Estudiantil por $89.99 — pagas al recibir">
+<meta property="og:description" content="Envío gratis a todo Ecuador. Revisas la laptop y pagas al recibirla.">
+<meta property="og:image" content="../assets/img/laptop-frontal-800.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="../assets/img/laptop-frontal-800.webp" type="image/webp" fetchpriority="high">
+<style>
+:root{
+  --azul:#0A5CFF; --azul-oscuro:#0646C4; --azul-tinta:#0B1F4D; --tinte:#EEF3FF;
+  --texto:#121826; --gris:#5B6472; --linea:#E3E8F0; --fondo:#FFFFFF; --fondo2:#F6F8FB;
+  --verde:#15803D; --verde-wa:#25D366; --tachado:#98A2B3;
+  --r:14px; --sombra:0 10px 30px rgba(11,31,77,.08);
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,system-ui,sans-serif;color:var(--texto);background:var(--fondo);line-height:1.55;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:Manrope,Inter,sans-serif;letter-spacing:-.02em;line-height:1.15;margin:0}
+h1{font-size:clamp(28px,4.2vw,42px);font-weight:800}
+h2{font-size:clamp(24px,3vw,32px);font-weight:800}
+h3{font-size:18px;font-weight:700}
+p{margin:0}
+img{display:block;max-width:100%;height:auto}
+a{color:var(--azul)}
+button{font:inherit}
+.wrap{width:min(1120px,100% - 32px);margin-inline:auto}
+section{padding:56px 0}
+@media (max-width:760px){section{padding:40px 0}}
+
+/* top bar + header */
+.topbar{background:var(--azul-tinta);color:#fff;text-align:center;font-size:13.5px;font-weight:500;padding:9px 16px}
+.topbar strong{font-weight:700}
+header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--linea)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{display:flex;align-items:center;gap:9px;font-family:Manrope;font-weight:800;font-size:19px;color:var(--azul-tinta);text-decoration:none}
+.logo svg{width:28px;height:28px}
+.nav-wa{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14px;color:var(--texto);text-decoration:none;border:1px solid var(--linea);padding:8px 14px;border-radius:999px}
+.nav-wa svg{width:18px;height:18px;fill:var(--verde-wa)}
+
+/* hero */
+.hero{padding:28px 0 48px}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:start}
+@media (max-width:900px){.hero-grid{grid-template-columns:1fr;gap:24px}}
+.mt-gallery{position:sticky;top:76px}
+@media (max-width:900px){.mt-gallery{position:static}}
+.mt-gallery-main{position:relative;background:var(--fondo2);border-radius:var(--r);overflow:hidden;aspect-ratio:1/1}
+.mt-gallery-main img{width:100%;height:100%;object-fit:cover}
+.mt-gallery-count{position:absolute;right:12px;bottom:12px;background:rgba(18,24,38,.7);color:#fff;font-size:12px;font-weight:600;padding:4px 10px;border-radius:999px}
+.gal-btn{position:absolute;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:50%;border:0;background:rgba(255,255,255,.9);box-shadow:var(--sombra);cursor:pointer;display:grid;place-items:center;color:var(--texto)}
+.gal-btn svg{width:18px;height:18px}
+.gal-btn.prev{left:12px}.gal-btn.next{right:12px}
+.mt-thumbs{display:flex;gap:10px;margin-top:12px}
+.mt-thumbs button{width:72px;height:72px;border-radius:10px;border:2px solid var(--linea);padding:0;overflow:hidden;background:var(--fondo2);cursor:pointer}
+.mt-thumbs button.is-active{border-color:var(--azul)}
+.mt-thumbs img{width:100%;height:100%;object-fit:cover}
+.tag-cond{display:inline-flex;align-items:center;gap:6px;background:var(--tinte);color:var(--azul-oscuro);font-size:12.5px;font-weight:600;padding:5px 10px;border-radius:999px;margin-bottom:12px}
+.hero h1{margin-bottom:10px}
+.sub{color:var(--gris);font-size:16px;margin-bottom:18px}
+.rating{display:flex;align-items:center;gap:8px;font-size:13.5px;color:var(--gris);margin-bottom:14px}
+.stars{color:#F59E0B;letter-spacing:1px}
+.precio{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+.precio .ahora{font-family:Manrope;font-weight:800;font-size:40px;color:var(--azul);line-height:1}
+.precio .antes{color:var(--tachado);text-decoration:line-through;font-size:18px}
+.precio .pill{background:#E7F7EC;color:var(--verde);font-weight:700;font-size:13px;padding:5px 10px;border-radius:999px}
+.precio-nota{font-size:13.5px;color:var(--gris);margin-bottom:18px}
+.stock{display:flex;align-items:center;gap:8px;font-size:14px;font-weight:600;margin-bottom:18px}
+.stock i{width:9px;height:9px;border-radius:50%;background:var(--verde);box-shadow:0 0 0 4px #DCFCE7}
+.trust{display:grid;gap:10px;margin-bottom:22px}
+.trust div{display:flex;gap:10px;align-items:flex-start;font-size:14.5px}
+.trust svg{width:20px;height:20px;flex:none;color:var(--azul)}
+.trust b{font-weight:600}
+
+/* formulario */
+.mt-form-wrap{background:var(--fondo2);border:1px solid var(--linea);border-radius:var(--r);padding:22px}
+.mt-form-wrap h3{margin-bottom:4px}
+.form-sub{font-size:13.5px;color:var(--gris);margin-bottom:16px}
+.mt-ofertas{display:grid;gap:8px;margin-bottom:16px}
+.mt-oferta{display:flex;align-items:center;gap:12px;background:#fff;border:1.5px solid var(--linea);border-radius:10px;padding:12px 14px;cursor:pointer}
+.mt-oferta:has(input:checked){border-color:var(--azul);box-shadow:0 0 0 3px rgba(10,92,255,.12)}
+.mt-oferta input{accent-color:var(--azul);width:18px;height:18px;margin:0}
+.mt-oferta-txt{flex:1;display:flex;flex-direction:column;line-height:1.3}
+.mt-oferta-txt strong{font-weight:600;font-size:15px}
+.mt-oferta-txt small{color:var(--verde);font-weight:600;font-size:12.5px}
+.mt-oferta-precio{font-family:Manrope;font-weight:800;font-size:17px}
+.campos{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.campos .full{grid-column:1/-1}
+@media (max-width:480px){.campos{grid-template-columns:1fr}}
+label.c{display:block;font-size:12.5px;font-weight:600;color:var(--gris);margin-bottom:4px}
+.mt-form input:not([type=radio]),.mt-form select{width:100%;height:46px;border:1.5px solid var(--linea);border-radius:10px;padding:0 12px;font:inherit;font-size:15px;background:#fff;color:var(--texto);transition:border-color .15s}
+.mt-form input:focus,.mt-form select:focus{outline:none;border-color:var(--azul);box-shadow:0 0 0 3px rgba(10,92,255,.14)}
+.mt-form input.is-invalid,.mt-form select.is-invalid{border-color:#DC2626}
+.mt-form select:disabled{background:#F1F3F6;color:var(--gris)}
+.mt-hp{position:absolute;left:-9999px;opacity:0;height:0}
+.resumen{display:flex;justify-content:space-between;align-items:center;margin:14px 0 12px;font-size:14px;color:var(--gris)}
+.resumen b{font-family:Manrope;font-size:22px;color:var(--texto)}
+.btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;height:56px;border:0;border-radius:12px;background:var(--azul);color:#fff;font-weight:700;font-size:16px;cursor:pointer;text-decoration:none;transition:background .15s,transform .1s}
+.btn:hover{background:var(--azul-oscuro)}.btn:active{transform:scale(.99)}
+.btn:disabled{opacity:.7;cursor:wait}
+.btn svg{width:20px;height:20px}
+.mt-error{background:#FEF2F2;color:#B91C1C;font-size:13.5px;padding:10px 12px;border-radius:8px;margin:0 0 10px}
+.form-foot{font-size:12.5px;color:var(--gris);text-align:center;margin-top:12px;line-height:1.5}
+.mt-gracias{text-align:center;padding:10px 0}
+.mt-gracias .check{width:64px;height:64px;border-radius:50%;background:#DCFCE7;color:var(--verde);display:grid;place-items:center;margin:0 auto 14px}
+.mt-gracias .check svg{width:32px;height:32px}
+.mt-gracias h3{font-size:22px;margin-bottom:8px}
+.mt-gracias p{color:var(--gris);margin-bottom:16px}
+.btn-wa{background:var(--verde-wa);color:#fff}
+.btn-wa:hover{background:#1DB954}
+
+/* secciones */
+.sec-head{max-width:620px;margin-bottom:28px}
+.sec-head p{color:var(--gris);margin-top:8px;font-size:16px}
+.usos{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media (max-width:760px){.usos{grid-template-columns:1fr 1fr}}
+@media (max-width:420px){.usos{grid-template-columns:1fr}}
+.uso{background:var(--fondo2);border-radius:var(--r);padding:20px}
+.uso svg{width:28px;height:28px;color:var(--azul);margin-bottom:12px}
+.uso h3{font-size:16px;margin-bottom:4px}
+.uso p{font-size:14px;color:var(--gris)}
+.specs{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-bottom:22px}
+@media (max-width:900px){.specs{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:480px){.specs{grid-template-columns:repeat(2,1fr)}}
+.spec{border:1px solid var(--linea);border-radius:12px;padding:16px 14px;text-align:center}
+.spec b{display:block;font-family:Manrope;font-weight:800;font-size:22px;color:var(--azul-tinta)}
+.spec span{font-size:12.5px;color:var(--gris)}
+details{border-top:1px solid var(--linea)}
+details:last-of-type{border-bottom:1px solid var(--linea)}
+summary{cursor:pointer;padding:16px 0;font-weight:600;font-size:16px;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:22px;color:var(--azul);flex:none;width:24px;text-align:center}
+details[open] summary::after{content:"–"}
+details .body{padding:0 0 18px;color:var(--gris);font-size:15px}
+table.tabla{width:100%;border-collapse:collapse;font-size:14.5px}
+.tabla td{padding:10px 0;border-bottom:1px solid var(--linea)}
+.tabla td:first-child{color:var(--gris);width:38%}
+.dos{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media (max-width:760px){.dos{grid-template-columns:1fr}}
+.card{background:var(--fondo2);border-radius:var(--r);padding:24px}
+.card h3{margin-bottom:12px}
+.lista{list-style:none;padding:0;margin:0;display:grid;gap:9px}
+.lista li{display:flex;gap:10px;font-size:15px}
+.lista svg{width:20px;height:20px;flex:none}
+.si svg{color:var(--verde)}.no svg{color:#9AA3AF}
+.pasos{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;counter-reset:p}
+@media (max-width:760px){.pasos{grid-template-columns:1fr}}
+.paso{border:1px solid var(--linea);border-radius:var(--r);padding:22px;counter-increment:p;position:relative}
+.paso::before{content:counter(p);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--azul);color:#fff;font-family:Manrope;font-weight:800;margin-bottom:12px}
+.paso p{color:var(--gris);font-size:14.5px;margin-top:4px}
+.testis{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media (max-width:900px){.testis{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.testis{grid-template-columns:1fr}}
+.testi{border:1px solid var(--linea);border-radius:var(--r);padding:20px;display:flex;flex-direction:column;gap:12px}
+.testi .q{font-size:15px}
+.testi .who{display:flex;align-items:center;gap:10px;font-size:13.5px;color:var(--gris);margin-top:auto}
+.av{width:38px;height:38px;border-radius:50%;background:var(--tinte);color:var(--azul-oscuro);font-weight:700;display:grid;place-items:center;font-size:14px;flex:none}
+.who b{color:var(--texto);display:block;font-weight:600}
+.entregado{font-size:12px;color:var(--verde);font-weight:600;display:inline-flex;align-items:center;gap:4px}
+.cta-final{background:var(--azul-tinta);color:#fff;border-radius:20px;padding:40px;display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:center}
+@media (max-width:760px){.cta-final{grid-template-columns:1fr;padding:28px}}
+.cta-final h2{color:#fff;margin-bottom:8px}
+.cta-final p{color:#B8C7EC}
+.cta-final .btn{background:#fff;color:var(--azul-tinta)}
+footer{padding:32px 0 110px;font-size:13.5px;color:var(--gris);border-top:1px solid var(--linea)}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+@media (min-width:901px){footer{padding-bottom:32px}}
+
+/* sticky móvil */
+.mt-sticky{position:fixed;left:0;right:0;bottom:0;z-index:30;background:#fff;border-top:1px solid var(--linea);padding:10px 16px calc(10px + env(safe-area-inset-bottom));display:flex;align-items:center;gap:12px;transition:transform .25s}
+.mt-sticky.is-hidden{transform:translateY(110%)}
+.mt-sticky .p{flex:1;line-height:1.2}
+.mt-sticky .p b{font-family:Manrope;font-size:20px;color:var(--azul);display:block}
+.mt-sticky .p small{color:var(--gris);font-size:12px}
+.mt-sticky .btn{width:auto;height:48px;padding:0 20px;font-size:15px}
+@media (min-width:901px){.mt-sticky{display:none}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<div class="topbar"><strong>Pagas al recibir</strong> · Envío gratis a todo Ecuador por Servientrega</div>
+<header><div class="wrap nav">
+  <a class="logo" href="#" aria-label="Mochila Tech">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6V4a4 4 0 0 1 8 0v2"/><rect x="4" y="6" width="16" height="16" rx="4"/><path d="M4 13h16M9 13v4h6v-4"/></svg>
+    Mochila Tech
+  </a>
+  <a class="nav-wa" data-mt-wa href="#"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.8-1.4.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.7a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg>¿Dudas? Escríbenos</a>
+</div></header>
+
+<main>
+<section class="hero"><div class="wrap hero-grid">
+
+  <div class="mt-gallery">
+    <div class="mt-gallery-main">
+      <img src="../assets/img/laptop-frontal-800.webp" srcset="../assets/img/laptop-frontal-480.webp 480w, ../assets/img/laptop-frontal-800.webp 800w, ../assets/img/laptop-frontal.webp 1200w" sizes="(max-width:900px) 100vw, 560px" width="800" height="800" alt="Laptop HP Estudiantil encendida, vista frontal" fetchpriority="high">
+      <button class="gal-btn prev" data-mt-prev aria-label="Foto anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m15 18-6-6 6-6"/></svg></button>
+      <button class="gal-btn next" data-mt-next aria-label="Siguiente foto"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m9 18 6-6-6-6"/></svg></button>
+      <span class="mt-gallery-count">1 / 3</span>
+    </div>
+    <div class="mt-thumbs">
+      <button type="button" data-src="../assets/img/laptop-frontal-800.webp" data-srcset="../assets/img/laptop-frontal-480.webp 480w, ../assets/img/laptop-frontal-800.webp 800w, ../assets/img/laptop-frontal.webp 1200w"><img src="../assets/img/laptop-frontal-thumb.webp" width="72" height="72" alt="Laptop HP Estudiantil encendida, vista frontal"></button>
+      <button type="button" data-src="../assets/img/laptop-perfil-800.webp" data-srcset="../assets/img/laptop-perfil-480.webp 480w, ../assets/img/laptop-perfil-800.webp 800w, ../assets/img/laptop-perfil.webp 1200w"><img src="../assets/img/laptop-perfil-thumb.webp" width="72" height="72" alt="Laptop HP Estudiantil vista de perfil, delgada y liviana" loading="lazy"></button>
+      <button type="button" data-src="../assets/img/laptop-teclado-800.webp" data-srcset="../assets/img/laptop-teclado-480.webp 480w, ../assets/img/laptop-teclado-800.webp 800w, ../assets/img/laptop-teclado.webp 1200w"><img src="../assets/img/laptop-teclado-thumb.webp" width="72" height="72" alt="Teclado y touchpad de la Laptop HP Estudiantil" loading="lazy"></button>
+    </div>
+  </div>
+
+  <div>
+    <span class="tag-cond">Revisada y probada · 10/10 funcional</span>
+    <h1>La laptop HP para estudiar que pagas cuando te llega.</h1>
+    <p class="sub">Lista para clases virtuales, Word, Excel y Canva desde el primer día. La revisas en tu casa y recién ahí pagas.</p>
+    <div class="rating"><span class="stars">★★★★★</span> 4.8 · 37 entregas calificadas</div>
+
+    <div class="precio">
+      <span class="ahora" data-mt="precio">$89.99</span>
+      <span class="antes" data-mt="ancla">$150.00</span>
+      <span class="pill">Ahorras <span data-mt="ahorro">$60.00</span> (<span data-mt="ahorroPct">40%</span>)</span>
+    </div>
+    <p class="precio-nota">Precio final. Sin tarjeta, sin anticipos, sin costos ocultos.</p>
+    <p class="stock"><i></i> Quedan <span data-mt="stock">20</span> unidades de este lote</p>
+
+    <div class="trust">
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="7" width="15" height="11" rx="2"/><path d="M16 11h4l3 3v4h-7"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="19" r="2"/></svg><span><b>Envío gratis a todo Ecuador</b> por Servientrega, llega en <span data-mt="entregaDias">2 a 4 días hábiles</span>.</span></div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="3"/></svg><span><b>Pagas en efectivo al recibir.</b> Abres el paquete, la pruebas y pagas.</span></div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5z"/><path d="m9 12 2 2 4-4"/></svg><span><b>Garantía de 30 días</b> y cambio si llega con algún daño.</span></div>
+    </div>
+
+    <div class="mt-form-wrap" id="pedido" data-mt-anchor>
+      <h3>Pide tu laptop</h3>
+      <p class="form-sub">Solo datos de entrega. Te confirmamos por WhatsApp antes de enviarla.</p>
+      <form class="mt-form" novalidate>
+        <div class="mt-ofertas"></div>
+        <div class="campos">
+          <div class="full"><label class="c" for="f-nombre">Nombre y apellido</label><input id="f-nombre" name="nombre" autocomplete="name" placeholder="Como aparece en tu cédula"></div>
+          <div><label class="c" for="f-tel">WhatsApp</label><input id="f-tel" name="telefono" type="tel" inputmode="numeric" autocomplete="tel" placeholder="0991234567"></div>
+          <div><label class="c" for="f-ced">Cédula <small>(opcional, para la guía)</small></label><input id="f-ced" name="cedula" inputmode="numeric" placeholder="0912345678"></div>
+          <div><label class="c" for="f-prov">Provincia</label><select id="f-prov" name="provincia"><option value="">Provincia</option></select></div>
+          <div><label class="c" for="f-city">Ciudad / cantón</label><select id="f-city" name="ciudad"><option value="">Ciudad / cantón</option></select></div>
+          <div class="full"><label class="c" for="f-dir">Dirección de entrega</label><input id="f-dir" name="direccion" autocomplete="street-address" placeholder="Calle principal y secundaria, o agencia Servientrega cercana"></div>
+          <div class="full"><label class="c" for="f-ref">Referencia <small>(opcional)</small></label><input id="f-ref" name="referencia" placeholder="Frente a…, casa de color…, piso…"></div>
+        </div>
+        <input name="empresa" class="mt-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="resumen"><span>Envío gratis · Total a pagar al recibir</span><b data-mt-total>$89.99</b></div>
+        <p class="mt-error" hidden></p>
+        <button class="btn" type="submit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5z"/><path d="m9 12 2 2 4-4"/></svg>Pedir y pagar al recibir</button>
+        <p class="form-foot">Un asesor de Mochila Tech te escribe por WhatsApp para confirmar tu dirección. Pedir no te compromete a nada hasta que confirmes.</p>
+      </form>
+    </div>
+  </div>
+</div></section>
+
+<div class="mt-gracias" hidden>
+  <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg></div>
+  <h3>¡Listo, <span data-mt-gracias-nombre></span>! Recibimos tu pedido.</h3>
+  <p>Te escribimos por WhatsApp en unos minutos para confirmar tu dirección. Ten listos <b data-mt-gracias-total>$89.99</b> en efectivo para cuando llegue.</p>
+  <a class="btn btn-wa mt-wa" href="#"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm4.5 14.1c-.2.5-1 1-1.5 1.1-.4.1-.9.1-1.5-.1-.3-.1-.8-.3-1.4-.5-2.4-1-3.9-3.5-4.1-3.6-.1-.2-1-1.3-1-2.5s.6-1.8.9-2c.2-.3.5-.3.7-.3h.5c.1 0 .4-.1.6.4l.8 1.9c.1.1.1.3 0 .4l-.3.5-.4.5c-.1.1-.3.3-.1.5.2.3.7 1.1 1.5 1.8 1 .9 1.9 1.2 2.1 1.3.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l1.8.8c.3.1.4.2.5.3 0 .2 0 .7-.2 1.2z"/></svg>Confirmar mi pedido por WhatsApp</a>
+</div>
+
+<section><div class="wrap">
+  <div class="sec-head"><h2>Hecha para tu día de clases</h2><p>Sin trabarse en lo que de verdad usas. No es para gaming pesado ni edición de video; para todo lo demás, sobra.</p></div>
+  <div class="usos">
+    <div class="uso"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="14" height="14" rx="2"/><path d="m16 10 6-3v10l-6-3"/></svg><h3>Clases virtuales</h3><p>Zoom, Meet y Teams con cámara HD y micrófono integrados.</p></div>
+    <div class="uso"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg><h3>Tareas y deberes</h3><p>Word, Excel, PowerPoint y Google Docs. Windows 10 original activado.</p></div>
+    <div class="uso"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg><h3>Chrome con muchas pestañas</h3><p>Investigas, ves YouTube y usas Canva al mismo tiempo.</p></div>
+    <div class="uso"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="18" height="10" rx="2"/><path d="M22 11v2M6 11v2"/></svg><h3>Batería para la jornada</h3><p>Hasta 8 horas de uso normal: de la mañana a la tarde sin cargador.</p></div>
+    <div class="uso"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6V4a4 4 0 0 1 8 0v2"/><rect x="4" y="6" width="16" height="16" rx="4"/></svg><h3>Cabe en cualquier mochila</h3><p>11.6 pulgadas y 1.1 kg. La llevas al colegio o la U sin sentirla.</p></div>
+    <div class="uso"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16v10H4zM2 20h20"/></svg><h3>Netflix entre clase y clase</h3><p>Pantalla HD antirreflejo y parlantes para series, YouTube y Spotify.</p></div>
+  </div>
+</div></section>
+
+<section style="background:var(--fondo2)"><div class="wrap">
+  <div class="sec-head"><h2>Lo que trae por dentro</h2></div>
+  <div class="specs">
+    <div class="spec"><b>11.6"</b><span>Pantalla HD</span></div>
+    <div class="spec"><b>4 GB</b><span>Memoria RAM</span></div>
+    <div class="spec"><b>64 GB</b><span>Almacenamiento</span></div>
+    <div class="spec"><b>Win 10</b><span>Original activado</span></div>
+    <div class="spec"><b>8 h</b><span>Batería aprox.</span></div>
+    <div class="spec"><b>1.1 kg</b><span>Peso</span></div>
+  </div>
+  <details><summary>Ver todas las especificaciones</summary><div class="body">
+    <table class="tabla">
+      <tr><td>Marca y modelo</td><td>HP Stream / Laptop 11.6" (serie estudiantil)</td></tr>
+      <tr><td>Procesador</td><td>Intel Celeron de bajo consumo</td></tr>
+      <tr><td>Memoria RAM</td><td>4 GB</td></tr>
+      <tr><td>Almacenamiento</td><td>64 GB (enciende en segundos)</td></tr>
+      <tr><td>Pantalla</td><td>11.6" HD 1366×768 antirreflejo</td></tr>
+      <tr><td>Sistema</td><td>Windows 10 original activado</td></tr>
+      <tr><td>Cámara y audio</td><td>Webcam HD, micrófono y parlantes estéreo</td></tr>
+      <tr><td>Conectividad</td><td>Wi-Fi, Bluetooth, 2× USB, HDMI, lector microSD, audífonos</td></tr>
+      <tr><td>Batería</td><td>Hasta 8 h de uso normal</td></tr>
+      <tr><td>Peso</td><td>1.1 kg aprox.</td></tr>
+      <tr><td>Incluye</td><td>Cargador original y caja</td></tr>
+    </table>
+  </div></details>
+  <details><summary>¿Nueva o seminueva? Te lo decimos claro</summary><div class="body">
+    Son equipos <b>open box y seminuevos</b>: caja abierta o poco uso, revisados uno por uno por nuestro técnico y <b>10/10 en funcionamiento</b>. Pueden tener marcas finas en la tapa que no afectan en nada. Por eso cuestan $89.99 y no $150. Cada equipo se prueba antes de enviarse: teclado, pantalla, cámara, Wi-Fi, puertos y batería.
+  </div></details>
+</div></section>
+
+<section><div class="wrap">
+  <div class="dos">
+    <div class="card"><h3>Es para ti si…</h3><ul class="lista si">
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Estudias en colegio o universidad y necesitas clases, tareas y presentaciones.</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Trabajas con Office, correo, WhatsApp Web y navegación.</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Buscas tu primera laptop o una para tus hijos sin gastar de más.</li>
+    </ul></div>
+    <div class="card"><h3>No es para ti si…</h3><ul class="lista no">
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg>Quieres jugar Fortnite, GTA o juegos pesados.</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg>Editas video en 4K o usas AutoCAD y Photoshop a diario.</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg>Necesitas guardar cientos de GB de archivos sin disco externo.</li>
+    </ul></div>
+  </div>
+</div></section>
+
+<section style="background:var(--fondo2)"><div class="wrap">
+  <div class="sec-head"><h2>Así funciona pagar al recibir</h2><p>Sin tarjeta, sin transferencias por adelantado. Tres pasos.</p></div>
+  <div class="pasos">
+    <div class="paso"><h3>Pides en 1 minuto</h3><p>Llenas tu nombre, WhatsApp y dirección aquí arriba. Nada más.</p></div>
+    <div class="paso"><h3>Te confirmamos por WhatsApp</h3><p>Un asesor te escribe o te llama para verificar la dirección y el día de entrega.</p></div>
+    <div class="paso"><h3>Recibes, pruebas y pagas</h3><p>Servientrega llega a tu puerta. Abres, enciendes la laptop y pagas en efectivo.</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="sec-head"><h2>Entregas en todo el país</h2><p>Lo que nos escriben cuando les llega.</p></div>
+  <!-- TESTIMONIOS SIMULADOS: reemplazar con mensajes reales de clientes (nombre, ciudad, texto, fecha). -->
+  <div class="testis">
+    <div class="testi"><p class="q">"Me llegó a Manta en 3 días. La probé delante del señor de Servientrega y recién pagué. Mi hija ya la usa para sus clases."</p><div class="who"><span class="av">MR</span><span><b>Mariuxi R.</b>Manta, Manabí <span class="entregado">· Entregada</span></span></div></div>
+    <div class="testi"><p class="q">"Pensé que era muy económica para ser buena, pero prende rapidísimo y Zoom corre sin problema. Venía con cargador y caja."</p><div class="who"><span class="av">KA</span><span><b>Kevin A.</b>Quito, Pichincha <span class="entregado">· Entregada</span></span></div></div>
+    <div class="testi"><p class="q">"La compré para mi hijo que entró a la U. Me confirmaron por WhatsApp el mismo día y llegó a La Libertad al siguiente."</p><div class="who"><span class="av">GT</span><span><b>Gabriela T.</b>La Libertad, Santa Elena <span class="entregado">· Entregada</span></span></div></div>
+    <div class="testi"><p class="q">"Pedí dos, una para mí y otra para mi hermana. Las dos impecables, con Windows activado. Excelente atención."</p><div class="who"><span class="av">LP</span><span><b>Luis P.</b>Cuenca, Azuay <span class="entregado">· Entregada</span></span></div></div>
+    <div class="testi"><p class="q">"Liviana y la batería me dura toda la mañana de clases. Para Word, Canva y YouTube es más que suficiente."</p><div class="who"><span class="av">AV</span><span><b>Andrea V.</b>Guayaquil, Guayas <span class="entregado">· Entregada</span></span></div></div>
+    <div class="testi"><p class="q">"Tenía miedo de que fuera estafa por pagar al recibir, pero justo por eso me animé: no pagué nada hasta tenerla en la mano."</p><div class="who"><span class="av">JM</span><span><b>Jhonny M.</b>Machala, El Oro <span class="entregado">· Entregada</span></span></div></div>
+  </div>
+</div></section>
+
+<section style="background:var(--fondo2)"><div class="wrap">
+  <div class="sec-head"><h2>Preguntas frecuentes</h2></div>
+  <details><summary>¿Cómo sé que no es una estafa?</summary><div class="body">Porque no pagas nada por adelantado. Recibes el paquete por Servientrega, lo abres, enciendes la laptop y recién ahí pagas en efectivo. Si no te gusta lo que ves, no la recibes y listo.</div></details>
+  <details><summary>¿Cuánto demora en llegar a mi ciudad?</summary><div class="body">Guayaquil, Quito, Cuenca y la Península: 1 a 2 días hábiles. Resto del país: <span data-mt="entregaDias">2 a 4 días hábiles</span>. Te enviamos el número de guía por WhatsApp para que la rastrees.</div></details>
+  <details><summary>¿Qué garantía tiene?</summary><div class="body">30 días de garantía por fallas de funcionamiento. Si llega dañada o no enciende, la cambiamos sin costo. La atención es por WhatsApp, en español, con una persona real.</div></details>
+  <details><summary>¿Viene con Windows y Office?</summary><div class="body">Viene con Windows 10 original activado. Office lo puedes usar gratis en la versión web (office.com) o instalar la versión de tu colegio o universidad.</div></details>
+  <details><summary>¿Trae cargador?</summary><div class="body">Sí, cargador original y caja. Llega lista para encender.</div></details>
+  <details><summary>¿Puedo pagar con tarjeta o transferencia?</summary><div class="body">El pago es en efectivo al recibir. Si prefieres transferencia, escríbenos por WhatsApp y lo coordinamos.</div></details>
+  <details><summary>¿Puedo cancelar el pedido?</summary><div class="body">Sí, sin costo, antes de que salga el envío. Solo avísanos por WhatsApp.</div></details>
+</div></section>
+
+<section><div class="wrap">
+  <div class="cta-final">
+    <div><h2>Tu laptop por $89.99, y la pagas cuando la tengas en la mano.</h2><p>Envío gratis a todo Ecuador · Quedan <span data-mt="stock">20</span> unidades de este lote.</p></div>
+    <a class="btn" href="#pedido">Pedir y pagar al recibir</a>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <span><b>Mochila Tech</b> · Tienda tecnológica · Santa Elena, Ecuador</span>
+  <span>Envíos por Servientrega a las 24 provincias · <a data-mt-wa href="#">WhatsApp</a></span>
+</div></footer>
+
+<div class="mt-sticky">
+  <div class="p"><b data-mt="precio">$89.99</b><small>Envío gratis · pagas al recibir</small></div>
+  <a class="btn" href="#pedido">Pedir ahora</a>
+</div>
+
+<script src="../assets/js/config.js"></script>
+<script src="../assets/js/ubicaciones.js"></script>
+<script src="../assets/js/pedido.js" defer></script>
+</body>
+</html>

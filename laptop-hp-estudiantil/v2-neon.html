@@ -8,6 +8,8 @@
 <meta property="og:title" content="Laptop HP Estudiantil por $89.99 — pagas al recibir">
 <meta property="og:image" content="../assets/img/laptop-perfil-800.webp">
 <meta name="theme-color" content="#070B14">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -36,6 +38,11 @@ header{position:sticky;top:0;z-index:20;background:rgba(7,11,20,.8);backdrop-fil
 .nav-wa{display:inline-flex;align-items:center;gap:8px;font-weight:500;font-size:14px;color:var(--texto);text-decoration:none;border:1px solid var(--borde);padding:8px 14px;border-radius:999px}
 .nav-wa svg{width:18px;height:18px;fill:var(--wa)}
 
+.logo{gap:10px!important;letter-spacing:-.01em}
+.logo img{width:40px;height:40px;border-radius:10px;background:#050915;box-shadow:0 0 0 1px rgba(34,211,238,.18),0 4px 14px rgba(5,9,21,.25);flex:none}
+.logo-txt{font-family:"Space Grotesk",system-ui,sans-serif;white-space:nowrap;color:#fff;font-weight:800;font-size:20px;line-height:1}
+.logo-tech{color:var(--cian)}
+@media (max-width:480px){.hide-m{display:none}.logo img{width:36px;height:36px}.logo-txt{font-size:18px}.nav-wa{padding:7px 12px!important;font-size:13.5px!important;white-space:nowrap}}
 /* hero */
 .hero{position:relative;overflow:hidden;padding:48px 0 56px}
 .hero::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 50% at 75% 45%,rgba(47,123,255,.35),transparent 70%),radial-gradient(40% 40% at 20% 90%,rgba(34,211,238,.12),transparent 70%);pointer-events:none}
@@ -109,6 +116,19 @@ header{position:sticky;top:0;z-index:20;background:rgba(7,11,20,.8);backdrop-fil
 .spec-row b{font-weight:500;text-align:right}
 .nota{background:rgba(34,211,238,.06);border:1px solid rgba(34,211,238,.25);border-radius:12px;padding:16px 18px;color:#CFEFF8;font-size:14.5px;margin-top:24px}
 
+.garantia{margin-top:28px;border:1px solid rgba(47,123,255,.5);border-radius:20px;padding:26px;background:radial-gradient(60% 80% at 0% 0%,rgba(47,123,255,.22),transparent 70%),var(--bg2);box-shadow:0 0 40px rgba(47,123,255,.12)}
+.g-head{display:flex;gap:16px;align-items:flex-start;margin-bottom:20px}
+.g-head>svg{width:48px;height:48px;flex:none;color:var(--cian);border:1px solid rgba(34,211,238,.4);border-radius:14px;padding:10px;filter:drop-shadow(0 0 10px rgba(34,211,238,.5))}
+.g-head h2{margin-bottom:6px}.g-head p{color:var(--muted);font-size:16px;max-width:60ch}
+.g-cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:760px){.g-cols{grid-template-columns:1fr}.garantia{padding:20px}}
+.g-col{background:var(--bg);border:1px solid var(--borde);border-radius:14px;padding:18px}
+.g-col h3{margin-bottom:10px;font-size:16px}
+.g-col ul{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.g-col li{display:flex;gap:10px;font-size:15px}
+.g-col svg{width:20px;height:20px;flex:none}
+.g-col.si svg{color:var(--verde)}.g-col.no svg{color:#F87171}
+.g-nota{font-size:14px;color:var(--muted);margin-top:16px}
 /* pasos */
 .pasos{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;counter-reset:p}
 @media (max-width:760px){.pasos{grid-template-columns:1fr}}
@@ -198,10 +218,10 @@ label.c{display:block;font-size:12.5px;font-weight:500;color:var(--muted);margin
 </head>
 <body>
 
-<div class="topbar">Pagas al recibir · Envío gratis a todo Ecuador por Servientrega · Garantía 30 días</div>
+<div class="topbar">Pagas al recibir · Envío gratis a todo Ecuador por Servientrega · Garantía 6 meses</div>
 <header><div class="wrap nav">
-  <a class="logo" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6V4a4 4 0 0 1 8 0v2"/><rect x="4" y="6" width="16" height="16" rx="4"/><path d="M4 13h16M9 13v4h6v-4"/></svg>Mochila Tech</a>
-  <a class="nav-wa" data-mt-wa href="#"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm4.5 14.1c-.2.5-1 1-1.5 1.1-.4.1-.9.1-1.5-.1-.3-.1-.8-.3-1.4-.5-2.4-1-3.9-3.5-4.1-3.6-.1-.2-1-1.3-1-2.5s.6-1.8.9-2c.2-.3.5-.3.7-.3h.5c.1 0 .4-.1.6.4l.8 1.9c.1.1.1.3 0 .4l-.3.5-.4.5c-.1.1-.3.3-.1.5.2.3.7 1.1 1.5 1.8 1 .9 1.9 1.2 2.1 1.3.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l1.8.8c.3.1.4.2.5.3 0 .2 0 .7-.2 1.2z"/></svg>Pregunta por WhatsApp</a>
+  <a class="logo" href="#"><img src="../assets/img/logo-icono.webp" width="40" height="40" alt=""><span class="logo-txt">Mochila <span class="logo-tech">Tech</span></span></a>
+  <a class="nav-wa" data-mt-wa href="#"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm4.5 14.1c-.2.5-1 1-1.5 1.1-.4.1-.9.1-1.5-.1-.3-.1-.8-.3-1.4-.5-2.4-1-3.9-3.5-4.1-3.6-.1-.2-1-1.3-1-2.5s.6-1.8.9-2c.2-.3.5-.3.7-.3h.5c.1 0 .4-.1.6.4l.8 1.9c.1.1.1.3 0 .4l-.3.5-.4.5c-.1.1-.3.3-.1.5.2.3.7 1.1 1.5 1.8 1 .9 1.9 1.2 2.1 1.3.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l1.8.8c.3.1.4.2.5.3 0 .2 0 .7-.2 1.2z"/></svg><span class="hide-m">Pregunta por </span>WhatsApp</a>
 </div></header>
 
 <main>
@@ -229,7 +249,7 @@ label.c{display:block;font-size:12.5px;font-weight:500;color:var(--muted);margin
     <div class="mini">
       <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Windows 10 activado</span>
       <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Cargador y caja</span>
-      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Garantía 30 días</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Garantía 6 meses</span>
     </div>
   </div>
   <div class="hero-img">
@@ -259,7 +279,7 @@ label.c{display:block;font-size:12.5px;font-weight:500;color:var(--muted);margin
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Laptop HP 11.6" probada: teclado, pantalla, cámara, Wi-Fi, puertos y batería.</li>
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Windows 10 original activado y listo para usar.</li>
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Cargador original y caja.</li>
-      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Garantía de 30 días por WhatsApp, con una persona real.</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Garantía de 6 meses: si falla de forma repentina, te entregamos otra.</li>
     </ul>
   </div>
 </div></section>
@@ -293,6 +313,15 @@ label.c{display:block;font-size:12.5px;font-weight:500;color:var(--muted);margin
     <div class="spec-row"><span>Estado</span><b>Open box / seminueva · 10/10 funcional</b></div>
   </div>
   <div class="nota">Son equipos open box o seminuevos: por eso cuestan $89.99 y no $150. Pueden tener marcas finas en la tapa que no afectan en nada. Cada uno se prueba punto por punto antes de enviarse.</div>
+
+  <div class="garantia" id="garantia">
+    <div class="g-head"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5z"/><path d="m9 12 2 2 4-4"/></svg><div><h2>Garantía de 6 meses</h2><p>Si tu laptop falla de forma repentina o deja de funcionar dentro de los 6 meses, te entregamos otra sin costo.</p></div></div>
+    <div class="g-cols">
+      <div class="g-col si"><h3>Cubre</h3><ul><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Falla repentina: la laptop deja de encender o deja de funcionar con el uso normal.</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Si se daña sola, sin golpes ni accidentes, te entregamos otra sin costo.</li></ul></div>
+      <div class="g-col no"><h3>No cubre</h3><ul><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg>Golpes en la pantalla o pantalla rota.</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg>Caídas.</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg>Quemaduras por alto voltaje o variaciones de luz.</li></ul></div>
+    </div>
+    <p class="g-nota">Para hacerla válida, escríbenos por WhatsApp con tu nombre y una foto o video de la falla. Revisamos el equipo y, si es una falla repentina, te enviamos otra.</p>
+  </div>
 </div></section>
 
 <section style="background:var(--bg2)"><div class="wrap">
@@ -322,7 +351,7 @@ label.c{display:block;font-size:12.5px;font-weight:500;color:var(--muted);margin
   <details><summary>¿Cómo sé que no es una estafa?</summary><div class="body">No pagas nada por adelantado. Recibes el paquete, lo abres, enciendes la laptop y recién ahí pagas en efectivo. Si no te convence, no la recibes.</div></details>
   <details><summary>¿Cuánto demora en llegar?</summary><div class="body">Guayaquil, Quito, Cuenca y la Península: 1 a 2 días hábiles. Resto del país: <span data-mt="entregaDias">2 a 4 días hábiles</span>. Te mandamos la guía por WhatsApp.</div></details>
   <details><summary>¿Es nueva?</summary><div class="body">Es open box o seminueva, revisada y 10/10 funcional. Puede tener marcas finas en la tapa. Por eso el precio.</div></details>
-  <details><summary>¿Qué garantía tiene?</summary><div class="body">30 días por fallas de funcionamiento. Si llega dañada o no enciende, la cambiamos sin costo.</div></details>
+  <details><summary>¿Qué garantía tiene?</summary><div class="body">Garantía de 6 meses contra fallas repentinas: si la laptop deja de encender o de funcionar con el uso normal, te entregamos otra sin costo. No cubre golpes en la pantalla, caídas ni quemaduras por alto voltaje. La atención es por WhatsApp, con una persona real.</div></details>
   <details><summary>¿Trae Windows, Office y cargador?</summary><div class="body">Windows 10 original activado y cargador original. Office lo usas gratis en office.com o con la cuenta de tu colegio o universidad.</div></details>
   <details><summary>¿Puedo cancelar?</summary><div class="body">Sí, sin costo, antes de que salga el envío. Avísanos por WhatsApp.</div></details>
 </div></section>

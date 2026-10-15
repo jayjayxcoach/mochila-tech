@@ -12,7 +12,7 @@ window.MT_CONFIG = {
 
   // 2) WhatsApp de la tienda en formato internacional sin "+" ni espacios.
   //    Ecuador: 593 + número sin el 0 inicial. Ej: 0991234567 -> 593991234567
-  whatsapp: "593000000000",
+  whatsapp: "593968637813",   // +593 96 863 7813
 
   // 3) Producto de esta página
   producto: {
